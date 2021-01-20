@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+
+<html> 
+<head>
+<link rel="stylesheet" href="C:/Users/Manasés/Desktop/HTML/stylesheet.css">
+<title> Match Market</title>
+</head>
+<body> 
+<h1> Match Market</h1>
+<h2> ¡tu mejor opción! </h2>
+<img src="C:/Users/Manasés/Desktop/Respaldo/MYM.jpg" alt="MYM">
+<hr>
+
+<a href="#afiliados"> Afiliados </a> <br>
+<a href="#preciodia"> Precios de hoy </a> <br>
+
+
+
+<h3> ¿Tienes poco tiempo para buscar entre tantas opciones el mejor precio? </h3>
+<p> Aquí podrás encontrar <strong> los mejores precios del mercado </strong>
+ de los diferentes
+servicios y productos de consumo diario. <br>
+Nos encargamos de investigar por ti los mejores precios y ubicaciones
+para hacerte más sencilla la experiencia de ir de compras. <br> 
+Aquí podras encontrar precios y direcciones de:
+ <ul> 
+   <li> Productos de la cesta básica </li>
+   <li> Servicios (electricidad, plomería, etc) </li>
+   <li> Belleza/imagen (Spa, Cejas, Tatuajes, ect.) </li> 
+</ul>
+
+<br> 
+
+
+
+<hr>
+
+<h3 id="afiliados"> Ente nuestros afiliados tenemos a: </h3> 
+<ol> 
+    <li> KEA </li>
+    <li> La Cabaña SF </li>
+    <li> Bliss Cejas Spa </li> 
+    <li> Andy Mendoza Ink </li>
+</ol>
+          <h4 id="preciodia"> Precios del dia: </h4> <br>
+<table>    
+
+    <tr> 
+           <td> Producto</td>
+           <td> Lugar </td>
+           <td> Precio </td>
+           <td> Ubicación </td>
+   </tr>      
+    <tr>
+        <td rowspan="2"> Harina </td> 
+        <td> KEA </td>
+        <td> 1.45$ </td>
+        <td> Av. La patria Frente a tránsito </td>
+
+          
+        </tr>
+   <tr>  
+        <td> Chin Chang </td>
+        <td> 1.3$ </td>
+        <td> Av. La patria frente a panadería Cristy </td>
+   </tr> 
+   <tr> 
+         <td rowspan= "4"> Arroz </td>
+    </tr>
+   <tr> 
+        <td> Kea </td>
+        <td> 1.2$ </td>
+        <td> Av. La patria Frente a tránsito </td>
+   </tr>
+
+   <tr>  
+        <td> Chin Chang </td>
+        <td> 1.1$ </td>
+        <td> Av. La patria frente a panadería Cristy </td>
+   </tr> 
+   
+   <tr>  
+        <td> Los chinos que no son chinos </td>
+        <td> 1$ </td>
+        <td> 5ta Av. con calle 32 </td>
+   </tr> 
+         
+</table>
+
+      <h4> Haznos saber tu opinión o conviértete en uno de nuestros afiliados</h4>
+
+ <form action="miScript.php" method="GET">
+    <label for="to">Para:</label>
+    <input id="to" type="email" placeholder="tucorreo@mail.com" required>
+
+    <label for="topic"> ¿Qué quieres hacer? </label>
+    <select id="topic" name="topic">
+      <option>--Elige una opción-- </option> 
+      <option value="opinion"> Sugerencia </option>
+      <option value="join"> Afiliación </option>
+     </select> 
+     
+     <label for="name"> Tu nombre </label> 
+     <input id="name" type = "name">
+
+     <label for="body"> Mensaje </label>
+     <textarea id="body" name="body"> </textarea>
+
+    <button type="submit">Enviar</button> 
+
+ <label for="subject">Asunto: </label>
+
+<input id="subject" type="text" value="Opinión/Afiliación" readonly>
+</form>
+
+  </p>
+
+ 
+</html>

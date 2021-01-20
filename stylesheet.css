@@ -1,0 +1,15 @@
+﻿
+
+h1 {
+   color: Green;
+   font-size: 60px;
+   font-weight: 600;
+
+  }
+
+body{ background-color: rgb(255, 100, 0);
+  }
+
+p {
+   text-align: justify;
+  }
